@@ -7,7 +7,7 @@ using System.Collections;
 namespace NinjaTrader.NinjaScript.AddOns.ExampleAddon
 {
     // ------------------ Class of performance methods
-	public partial class PerformanceTests
+	public partial class Indicator
     {
         #region ------ Performance Test Methods
         // A - struct
