@@ -7,9 +7,10 @@ using System.Collections;
 namespace NinjaTrader.NinjaScript.AddOns.ExampleAddon
 {
     // ------------------ Class of performance methods
+	#region global Indicator Methods
 	public partial class Indicator
     {
-        #region ------ Performance Test Methods
+//        #region ------ Performance Test Methods 
         // A - struct
         // B - Series
         // C - Series Reference (not allowed for class-method)
@@ -56,6 +57,14 @@ namespace NinjaTrader.NinjaScript.AddOns.ExampleAddon
         // Events - end mTest_Pass_Series
         // -------------------------------------
         #endregion
+		
+	}
+	#endregion
+		
+		
+	#region Indicator Methods for "PerformanceTests" Indicator
+	public partial class PerformanceTests
+    {
 
         // -------------------------------------
         // C - Events - mTest_Pass_SeriesRef
@@ -116,6 +125,6 @@ namespace NinjaTrader.NinjaScript.AddOns.ExampleAddon
         // -------------------------------------
         #endregion
 		
-        #endregion
     }
+	#endregion
 }
